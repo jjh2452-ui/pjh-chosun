@@ -1,0 +1,4 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+# Windows 실행 파일(.bat)은 Windows 줄바꿈 유지
+*.bat text eol=crlf

@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "engine_revision": "75166b1fe869",
+  "extract_args": {},
+  "run_dir": "C:\\Users\\jh245\\OneDrive\\문서\\vibe-coging\\mugwan",
+  "cell": {
+    "shape": "square",
+    "width": 256,
+    "height": 256,
+    "safe_margin_x": 24,
+    "safe_margin_y": 24,
+    "size": 256,
+    "safe_margin": 24
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "manual"
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 4,
+      "method": "components",
+      "files": [
+        "frames/idle/frame-0.png",
+        "frames/idle/frame-1.png",
+        "frames/idle/frame-2.png",
+        "frames/idle/frame-3.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 18186,
+          "bbox": [
+            30,
+            33,
+            209,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 18592,
+          "bbox": [
+            29,
+            30,
+            210,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 19055,
+          "bbox": [
+            30,
+            24,
+            211,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 18222,
+          "bbox": [
+            29,
+            33,
+            210,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ],
+      "ok": true,
+      "engine_revision": "75166b1fe869"
+    },
+    {
+      "state": "walk",
+      "frames": 4,
+      "method": "components",
+      "files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 17391,
+          "bbox": [
+            41,
+            26,
+            213,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 16426,
+          "bbox": [
+            48,
+            24,
+            209,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 17128,
+          "bbox": [
+            41,
+            28,
+            210,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 16091,
+          "bbox": [
+            47,
+            25,
+            212,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ],
+      "ok": true,
+      "engine_revision": "75166b1fe869"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

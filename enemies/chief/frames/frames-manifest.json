@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "engine": "component-row",
+  "engine_revision": "75166b1fe869",
+  "extract_args": {},
+  "run_dir": "C:\\Users\\jh245\\OneDrive\\문서\\vibe-coging\\enemies\\chief",
+  "cell": {
+    "shape": "square",
+    "width": 256,
+    "height": 256,
+    "safe_margin_x": 24,
+    "safe_margin_y": 24,
+    "size": 256,
+    "safe_margin": 24
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "manual"
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 4,
+      "method": "components",
+      "files": [
+        "frames/idle/frame-0.png",
+        "frames/idle/frame-1.png",
+        "frames/idle/frame-2.png",
+        "frames/idle/frame-3.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 12108,
+          "bbox": [
+            61,
+            24,
+            192,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 12170,
+          "bbox": [
+            60,
+            24,
+            192,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 12492,
+          "bbox": [
+            60,
+            24,
+            194,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 12134,
+          "bbox": [
+            61,
+            24,
+            192,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ],
+      "ok": true,
+      "engine_revision": "75166b1fe869"
+    },
+    {
+      "state": "walk",
+      "frames": 4,
+      "method": "components",
+      "files": [
+        "frames/walk/frame-0.png",
+        "frames/walk/frame-1.png",
+        "frames/walk/frame-2.png",
+        "frames/walk/frame-3.png"
+      ],
+      "frame_records": [
+        {
+          "index": 0,
+          "nontransparent_pixels": 13942,
+          "bbox": [
+            48,
+            25,
+            189,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "nontransparent_pixels": 12669,
+          "bbox": [
+            64,
+            24,
+            194,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "nontransparent_pixels": 13648,
+          "bbox": [
+            50,
+            25,
+            189,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "nontransparent_pixels": 12709,
+          "bbox": [
+            65,
+            24,
+            196,
+            232
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ],
+      "ok": true,
+      "engine_revision": "75166b1fe869"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

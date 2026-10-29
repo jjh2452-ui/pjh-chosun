@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "kind": "sprite-gen-request",
+  "engine": "component-row",
+  "character": {
+    "id": "tiger",
+    "description": "",
+    "base_image": "base-source.png"
+  },
+  "cell": {
+    "shape": "square",
+    "width": 256,
+    "height": 256,
+    "safe_margin_x": 24,
+    "safe_margin_y": 24,
+    "size": 256,
+    "safe_margin": 24
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "manual"
+  },
+  "states": {
+    "idle": {
+      "frames": 4,
+      "fps": 4,
+      "loop": true,
+      "action": "standing idle on four legs; slow breathing, tail sways and curls; paws stay planted"
+    },
+    "walk": {
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "action": "side-view four-legged prowling walk cycle in strict profile facing right; diagonal leg pairs alternate (contact, passing, contact, passing), shoulders and hips roll, tail sways; continuous loop"
+    }
+  },
+  "style": "match the attached base/anchor reference image EXACTLY: same pixel density (logical pixel block size), same body proportions, same outline weight, same palette, same shading style, same level of detail. Do not restyle, do not change proportions, do not add or remove detail density.",
+  "body_plan": [
+    {
+      "plan": "quadruped",
+      "figure": ""
+    }
+  ],
+  "layout": "taxonomy/v1",
+  "chroma": {
+    "mode": "rgb",
+    "unmix_reach": 4,
+    "spill_max_fraction": 0.005
+  }
+}

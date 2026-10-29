@@ -1,0 +1,33 @@
+# ===== Godot 4 =====
+# 고도가 자동으로 만드는 캐시 폴더 (에디터를 열면 다시 생김)
+.godot/
+/android/
+
+# ===== 내보내기(Export) 결과물 =====
+/build/
+/builds/
+/export/
+/exports/
+*.pck
+*.exe
+*.zip
+*.apk
+*.aab
+*.wasm
+*.html
+
+# ===== sprite-gen 작업 도구 =====
+# 다운로드한 스킬과 파이썬 가상환경은 올리지 않음 (https://github.com/aldegad/sprite-gen 에서 다시 설치)
+/.claude/skills/sprite-gen/
+.venv/
+__pycache__/
+*.pyc
+# sprite-gen 작업 중 생기는 잠금·임시 폴더
+*.sg-rwlock
+.frames.sg-staging/
+.frames.sg-backup/
+
+# ===== 운영체제가 만드는 파일 =====
+Thumbs.db
+desktop.ini
+.DS_Store
